@@ -5,7 +5,7 @@ import { promises } from 'nodemailer/lib/xoauth2';
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'hapi-server',
-    password: 'aniruddhkygo@2003',
+    password: YOUR_PASSWORD_HERE,
     database: 'buyandsell'
 })
 
